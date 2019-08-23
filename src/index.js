@@ -58,8 +58,6 @@ document.addEventListener("DOMContentLoaded", (e)=> {
         if (e.target.className === "btn btn-info"){
             // console.log(e.target.dataset.id)
             let textArea = document.querySelector("textarea").value
-            console.log()
-            debugger
             let beerId = e.target.dataset.id
             fetch(`http://localhost:3000/beers/${beerId}`, {
                 method: "PATCH", 
@@ -73,22 +71,6 @@ document.addEventListener("DOMContentLoaded", (e)=> {
             })
         }
     })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
