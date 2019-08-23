@@ -8,7 +8,7 @@
 - ES6 Classes
 - Fetching from APIs
 
-## Instructions
+## Instructions 
 
 For this code challenge, you will be building a **[Master Detail Interface](Master-Detail.png)**
 
